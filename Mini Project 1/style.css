@@ -1,0 +1,67 @@
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+  .project
+  {
+      height: 180px;
+      overflow: hidden;
+  }
+.bg-light
+{
+    color:#003049;
+    background-color: #003049;
+}
+.frontpage
+{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.quote
+{
+    margin: auto;
+    text-align: center;
+}
+.pp
+{
+    border-radius:10px;
+    transition-duration: 500ms;
+}
+.pp:hover
+{
+    box-shadow: 12px 12px 2px 1px #3d5a80;
+}
+.carousel-item
+{
+    height: 500px;
+}
+.quote
+{
+    border-right:5px solid rgb(255, 255, 255);
+    border-bottom:5px solid rgb(255, 255, 255);
+    transition-duration: 300ms;
+}
+.quote:hover
+{
+    border-bottom:5px solid rgb(102, 102, 102);
+    border-right:5px solid rgb(102, 102, 102);
+}
